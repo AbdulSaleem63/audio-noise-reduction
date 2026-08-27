@@ -53,6 +53,20 @@ Spectral gating suppresses frequency components that are estimated to be dominat
 - Spectral Gating
 - Audio Signal Processing
 
+## Project Results
+
+### Waveform Comparison
+
+The waveform comparison shows the original clean speech, noisy speech, and the outputs after Wiener filtering and spectral gating.
+
+![Waveform Comparison](images/waveform-comparison.jpg)
+
+### Spectrogram Comparison
+
+The spectrogram comparison visualizes the distribution of signal energy across time and frequency before and after noise reduction.
+
+![Spectrogram Comparison](images/spectrogram-comparison.jpg)
+
 ## Project Structure
 
 ```text
