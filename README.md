@@ -53,6 +53,26 @@ Spectral gating suppresses frequency components that are estimated to be dominat
 - Spectral Gating
 - Audio Signal Processing
 
+## Code Implementation
+
+The project is implemented in MATLAB for speech enhancement and audio noise reduction.
+
+The implementation includes:
+
+- Loading and preprocessing the clean speech signal
+- Adding controlled noise to the speech signal
+- Wiener filtering for noise reduction
+- Spectral gating for noise suppression
+- Time-domain waveform comparison
+- Frequency-domain spectrogram analysis
+- Comparison of denoising results
+
+### Source Code
+
+The complete MATLAB implementation is available in the `src` folder.
+
+[View MATLAB Source Code](src/audio_denoising.m)
+
 ## Project Results
 
 ### Waveform Comparison
